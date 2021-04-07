@@ -1,1 +1,4 @@
-*.gz
+./*.gz
+/bin/*
+/out/*
+/build/*
