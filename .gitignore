@@ -1,5 +1,6 @@
 ./*.gz
-/archive/*
+/source/*
+/destination/*
 /bin/*
 /out/*
 /build/*

@@ -2,8 +2,8 @@
 
 RETENTION=7
 CDATE=$(date +"%Y%m%d-%H%M") # Current date
-SPATH="."
-DPATH="./archive"
+SPATH="./source"
+DPATH="./destination"
 FSRC="$SPATH/file1.txt" # source 
 FDST="$DPATH/archive_log-$CDATE.tar.gz" # destination
 
