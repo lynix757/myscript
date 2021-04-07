@@ -1,14 +1,17 @@
 #!/bin/bash
 
-RETENTION=7
 CDATE=$(date +"%Y%m%d-%H%M") # Current date
 
+#### Modify here  ########################################
+
+RETENTION=7
 SPATH="./source"
 DPATH="./destination"
 LOGPREFIX="log1"
-
 FSRC="$SPATH/file1.txt" # source 
 FDST="$DPATH/$LOGPREFIX-$CDATE.tar.gz" # destination
+
+#### Modify here  ########################################
 
 # Delete file older than xx Day
 case $1 in
